@@ -29,7 +29,9 @@ import IotPage from "./components/pages/technologiespages/iot/IotPage.js";
 import CasePage from "./components/pages/CaseStudy/CasePage.js";
 import ScrollToTop from "./components/ScrollToTop.js";
 import CareerPage from "./components/careers/CareerPage.js";
+
 import PrivacyPolicyPage from "./components/pages/policy_link/PrivacyPolicyPage";
+import PrivacyPolicyNodexPos from "./components/pages/policy_link/PrivacyPolicyNodexPos";
 
 
 
@@ -81,6 +83,7 @@ function App() {
 
         {/* Privacy Policy Page without header and footer */}
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="/privacy-policy-nodex-pos" element={<PrivacyPolicyNodexPos />} />
 
       </Routes>
     </Router>
