@@ -2,7 +2,6 @@
 
 import { React } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 import Footer from "./components/footer/Footer.js";
 import FooterBottom from "./components/footer/FooterBottom.js";
 import HomePage from "./components/pages/HomePage"; // Import HomePage component
@@ -30,48 +29,60 @@ import IotPage from "./components/pages/technologiespages/iot/IotPage.js";
 import CasePage from "./components/pages/CaseStudy/CasePage.js";
 import ScrollToTop from "./components/ScrollToTop.js";
 import CareerPage from "./components/careers/CareerPage.js";
+import PrivacyPolicyPage from "./components/pages/policy_link/PrivacyPolicyPage";
+
+
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="w-full h-auto bg-bodyColor text-lightText">
-        <NavbarNew />
-        <Routes>
-          {" "}
-          {/* Wrap your routes with <Routes> */}
-          <Route path="/" element={<HomePage />} /> {/* Home page */}
-          <Route path="/about" element={<AboutPage />} /> {/* About page */}
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/solutions" element={<SolutionsPage />} />
-          <Route path="/case" element={<CasePage />} />
-          <Route path="/industries" element={<IndustriesPage />} />
-          <Route path="/contact" element={<GetInTouchPage />} />
-          {/*sub  pages */}
-          <Route path="/customsoftwarepage" element={<CustomSoftwarePage />} />
-          <Route path="/webappdevpage" element={<WebAppDevPage />} />
-          <Route path="/mobileppdevpage" element={<MobileAppDevPage />} />
-          {/* industries */}
-          <Route path="/fintech" element={<FinTechPage />} />
-          <Route path="/healthcare" element={<HealthcarePage />} />
-          <Route path="/ecommerce" element={<EcommercePage />} />
-          <Route path="/education" element={<EducationPage />} />
-          <Route path="/hospitality" element={<HospitalityPage />} />
-          <Route path="/pharmacy" element={<PharmacyPage />} />
-          <Route path="/foodtech" element={<FoodTechPage />} />
-          <Route path="/realestate" element={<RealEsatatePage />} />
-          {/* technologies */}
-          <Route path="/java" element={<JavaPage />} />
-          <Route path="/nodejs" element={<NodeJsPage />} />
-          <Route path="/javascript" element={<JavaScriptPage />} />
-          <Route path="/iot" element={<IotPage />} />
-          {/* careerpage   */}
-          <Route path="/careerpage" element={<CareerPage />} />
-        </Routes>
+      <Routes>
+        {/* Routes with header and footer */}
+        <Route
+          path="*"
+          element={
+            <div className="w-full h-auto bg-bodyColor text-lightText">
+              <NavbarNew />
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/services" element={<ServicesPage />} />
+                <Route path="/solutions" element={<SolutionsPage />} />
+                <Route path="/case" element={<CasePage />} />
+                <Route path="/industries" element={<IndustriesPage />} />
+                <Route path="/contact" element={<GetInTouchPage />} />
+                {/* Sub Pages */}
+                <Route path="/customsoftwarepage" element={<CustomSoftwarePage />} />
+                <Route path="/webappdevpage" element={<WebAppDevPage />} />
+                <Route path="/mobileppdevpage" element={<MobileAppDevPage />} />
+                {/* Industries */}
+                <Route path="/fintech" element={<FinTechPage />} />
+                <Route path="/healthcare" element={<HealthcarePage />} />
+                <Route path="/ecommerce" element={<EcommercePage />} />
+                <Route path="/education" element={<EducationPage />} />
+                <Route path="/hospitality" element={<HospitalityPage />} />
+                <Route path="/pharmacy" element={<PharmacyPage />} />
+                <Route path="/foodtech" element={<FoodTechPage />} />
+                <Route path="/realestate" element={<RealEsatatePage />} />
+                {/* Technologies */}
+                <Route path="/java" element={<JavaPage />} />
+                <Route path="/nodejs" element={<NodeJsPage />} />
+                <Route path="/javascript" element={<JavaScriptPage />} />
+                <Route path="/iot" element={<IotPage />} />
+                {/* Career Page */}
+                <Route path="/careerpage" element={<CareerPage />} />
+              </Routes>
+              <Footer />
+              <FooterBottom />
+            </div>
+          }
+        />
 
-        <Footer />
-        <FooterBottom />
-      </div>
+        {/* Privacy Policy Page without header and footer */}
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+
+      </Routes>
     </Router>
   );
 }

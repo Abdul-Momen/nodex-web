@@ -1,5 +1,5 @@
 {
-  "name": "nextzensoft",
+  "name": "NodexSystem",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "framer-motion": "^10.16.4",
     "lodash": "^4.17.21",
     "lottie-react": "^2.4.0",
+    "next": "^15.0.1",
     "react": "^18.2.0",
     "react-collapse": "^5.1.1",
     "react-dom": "^18.2.0",

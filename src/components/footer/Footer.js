@@ -198,6 +198,9 @@ const Footer = () => {
               </li>
             </a> */}
             {/* end */}
+           <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+                   Privacy Policy
+                 </a>
           </ul>
         </div>
         {/* end of DEVELOPERS */}
