@@ -1,7 +1,7 @@
 /** @format */
 
 import logo from "./images/logo.png";
-import Nextlogo from "./images/nextZenSoft.png";
+import Nextlogo from "./images/nodexSLogo.png";
 import nodexLogo from "./images/nodexSLogo.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";

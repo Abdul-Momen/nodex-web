@@ -26,7 +26,7 @@ const ReactPage = () => {
               Our Services
             </h1>
             <p className="font-abelPro text-[#FFFFFF] leading-normal text-center sm:text-left">
-              "At Nextzensoft, we specialize in crafting custom software
+              "At Nodex System, we specialize in crafting custom software
               solutions, mobile apps, and web applications. Our services
               encompass everything from UI/UX design to cybersecurity and
               ongoing support. With a commitment to innovation and quality, we

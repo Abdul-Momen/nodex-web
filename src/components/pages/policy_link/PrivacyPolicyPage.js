@@ -48,7 +48,7 @@ const PrivacyPolicyPage = () => {
       <h2>Contact Us</h2>
       <p>If you have any questions about this privacy policy, please contact us:</p>
       <ul>
-        <li>Email: support@nodexsystem.com</li>
+        <li>Email: support@Nodex System.com</li>
         <li>Phone: +8801314986798</li>
       </ul>
     </div>

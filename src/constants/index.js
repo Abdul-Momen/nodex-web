@@ -267,7 +267,7 @@ export const foodTechFaQData = [
 
   {
     title: "Do you provide FoodTech mobile app development services?",
-    description: `Yes, of course! At Nextzensoft, our mobile app developers specialize in building solutions for a variety of industries—including the food sector.`,
+    description: `Yes, of course! At Nodex System, our mobile app developers specialize in building solutions for a variety of industries—including the food sector.`,
   },
 ];
 

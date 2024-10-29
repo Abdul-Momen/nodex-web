@@ -56,7 +56,7 @@ const AboutUsCompo = () => {
               duration: 2,
             }}
             className="text-base md:text-lg lg:text-xl font-bodyFont leading-6 tracking-wide mt-4 mb-10">
-            Nextzensoft works in multiple areas including software development,
+            Nodex System works in multiple areas including software development,
             website development, customized software solutions, mobile app
             development, theme design, and development. Our dream is to continue
             your journey with success.

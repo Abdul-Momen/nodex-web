@@ -11,7 +11,7 @@ const MainHeroSection = () => {
         <div className="left-hero">
           <div className="left-hero-content">
             <h1>The Leading Software Company In Bangladesh</h1>
-            <p>Think Software, Think NextZenSoft.</p>
+            <p>Think Software, Think Nodex System.</p>
 
             <button className="w-[150px] md:w-[170px] h-12 mt-4 bg-[#6556be] hover:bg-purple-500 text-white font-bold py-2 px-4 rounded">
               Explore More

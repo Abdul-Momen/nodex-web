@@ -28,7 +28,7 @@ const LeftBanner = () => {
       className="w-full lg:w-1/2 flex flex-col gap-5 ml-4 md:ml-8">
       <div className="flex flex-col gap-5">
         <h4 className="text-lg md:text-xl font-normal">
-          WELCOME TO Nextzensoft
+          WELCOME TO Nodex System
         </h4>
         <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold text-[#f37003] whitespace-nowrap">
           Elite{" "}

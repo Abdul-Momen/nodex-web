@@ -29,7 +29,7 @@ const ContactUsLeftInfo = () => {
 
           <div>
             <p className="text-base md:text-lg text-coralred font-abelPro">
-              info@nodexsystem.com
+              info@Nodex System.com
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@ const ContactUsLeftInfo = () => {
             className="bannerIcon"
             onClick={() =>
               window.open(
-                "https://www.facebook.com/NodexSystem?mibextid=ZbWKwL",
+                "https://www.facebook.com/Nodex System?mibextid=ZbWKwL",
                 "_blank"
               )
             }>
@@ -93,7 +93,7 @@ const ContactUsLeftInfo = () => {
             className="bannerIcon"
             onClick={() =>
               window.open(
-                "https://www.linkedin.com/company/nodexsystem/",
+                "https://www.linkedin.com/company/Nodex System/",
                 "_blank"
               )
             }>

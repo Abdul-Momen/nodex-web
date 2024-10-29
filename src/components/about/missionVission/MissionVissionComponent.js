@@ -76,7 +76,7 @@ const MissionVissionComponent = () => {
             technology systematically to solve them. We don't take a
             transactional approach to our engagements. Rather, we foster
             personalized relationships built on trust and perpetual delivery of
-            benefit over time. At Nextzensoft, we empower through technology.
+            benefit over time. At Nodex System, we empower through technology.
           </p>
         </div>
       </motion.div>

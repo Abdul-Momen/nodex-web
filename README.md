@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# Getting Started with Nextzensoft
+# Getting Started with Nodex System
 
 ## Available Scripts
 

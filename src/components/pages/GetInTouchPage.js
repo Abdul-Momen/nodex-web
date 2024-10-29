@@ -71,7 +71,7 @@ const GetInTouchPage = () => {
               </p>
               <p className="text-xs mb-1">Bangladesh</p>
               <p className="text-xs mb-1">Cell: +8801314986798 </p>
-              <p className="text-xs">Email: info@nodexsystem.com</p>
+              <p className="text-xs">Email: info@Nodex System.com</p>
             </div>
           </div>
           {/* end 1 */}
@@ -90,7 +90,7 @@ const GetInTouchPage = () => {
               <p className="text-xs"> Syracuse, New York,</p>
               <p className="text-xs mb-1">USA</p>
               <p className="text-xs mb-1">Cell:+1(631)-579-5051</p>
-              <p className="text-xs">Email: info@nodexsystem.com</p>
+              <p className="text-xs">Email: info@Nodex System.com</p>
             </div>
           </div>
 
@@ -108,7 +108,7 @@ const GetInTouchPage = () => {
               <p className="text-xs">, Ohio 45202,</p>
               <p className="text-xs mb-1">USA</p>
               <p className="text-xs mb-1">Cell: +1(513)-708-7674</p>
-              <p className="text-xs">Email:info@nodexsystem.com</p>
+              <p className="text-xs">Email:info@Nodex System.com</p>
             </div>
           </div>
           {/* end 3 */}
@@ -128,7 +128,7 @@ const GetInTouchPage = () => {
               <p className="text-xs">TTDI, Kuala Lumpur,60000</p>
               <p className="text-xs mb-1">Malaysia</p>
               <p className="text-xs mb-1">Cell: +60 11-6055 5235</p>
-              <p className="text-xs">Email: info@nodexsystem.com</p>
+              <p className="text-xs">Email: info@Nodex System.com</p>
             </div>
           </div>
 
@@ -147,7 +147,7 @@ const GetInTouchPage = () => {
               <p className="text-xs">91522, Ansbach</p>
               <p className="text-xs mb-1">Germany</p>
               <p className="text-xs mb-1">Cell: +4917684035253</p>
-              <p className="text-xs">Email: info@nodexsystem.com</p>
+              <p className="text-xs">Email: info@Nodex System.com</p>
             </div>
           </div>
 

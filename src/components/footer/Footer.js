@@ -37,7 +37,7 @@ const Footer = () => {
               className="bannerIcon"
               onClick={() =>
                 window.open(
-                  "https://www.facebook.com/NodexSystem?mibextid=ZbWKwL",
+                  "https://www.facebook.com/Nodex System?mibextid=ZbWKwL",
                   "_blank"
                 )
               }>
@@ -47,7 +47,7 @@ const Footer = () => {
               className="bannerIcon"
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/company/nodexsystem/",
+                  "https://www.linkedin.com/company/Nodex System/",
                   "_blank"
                 )
               }>

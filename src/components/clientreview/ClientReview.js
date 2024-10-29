@@ -108,7 +108,7 @@ const ClientReview = () => {
                     Sabbir Rahman
                   </h3>
                   <p className="text-base font-adventPro tracking-wide text-designColor">
-                    CTO - Nextzensoft.
+                    CTO - Nodex System.
                   </p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const ClientReview = () => {
                         Nodex POS
                       </h3>
                       <p className="font-adventPro text-2xl text-designColor mt-2">
-                        Nextzensoft.
+                        Nodex System.
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">

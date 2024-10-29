@@ -80,7 +80,7 @@ const ReqProcess = () => {
           <span className="text-2xl text-deepBlue font-abelPro font-bold">
             Email:
           </span>{" "}
-          info@nodexsystem.com
+          info@Nodex System.com
         </p>
       </div>
     </div>
