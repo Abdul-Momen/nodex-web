@@ -2,7 +2,7 @@
 
 import logo from "./images/logo.png";
 import Nextlogo from "./images/nextZenSoft.png";
-import nodexLogo from "./images/nodexSLogo.jpeg";
+import nodexLogo from "./images/nodexSLogo.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
