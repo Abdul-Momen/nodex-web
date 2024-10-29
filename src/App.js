@@ -31,6 +31,8 @@ import ScrollToTop from "./components/ScrollToTop.js";
 import CareerPage from "./components/careers/CareerPage.js";
 import PrivacyPolicyPage from "./components/pages/policy_link/PrivacyPolicyPage";
 import PrivacyPolicyNodexPos from "./components/pages/policy_link/PrivacyPolicyNodexPos";
+import TermsConditions from "./components/pages/policy_link/TermsNodexPos.js";
+import RefundNodexPos from "./components/pages/policy_link/RefundNodexPos.js";
 
 
 
@@ -83,6 +85,8 @@ function App() {
         {/* Privacy Policy Page without header and footer */}
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/privacy-policy-nodex-pos" element={<PrivacyPolicyNodexPos />} />
+        <Route path="/terms-condition-nodex-pos" element={<TermsConditions/>} />
+        <Route path="/refund-policy-nodex-pos" element={<RefundNodexPos/>} />
 
       </Routes>
     </Router>

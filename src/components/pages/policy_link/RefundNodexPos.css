@@ -1,0 +1,88 @@
+/* Container styling */
+.refund-policy {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.refund-policy h1 {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #4a90e2;
+  padding-bottom: 10px;
+}
+
+/* Section headings */
+.refund-policy h2 {
+  font-size: 22px;
+  color: #4a90e2;
+  margin-top: 20px;
+  border-left: 4px solid #4a90e2;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+/* Paragraphs */
+.refund-policy p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+
+/* Lists */
+.refund-policy ul {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.refund-policy ul li {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Strong emphasis */
+.refund-policy strong {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Links */
+.refund-policy a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.refund-policy a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .refund-policy {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .refund-policy h1 {
+    font-size: 24px;
+  }
+
+  .refund-policy h2 {
+    font-size: 20px;
+  }
+
+  .refund-policy p, .refund-policy ul li {
+    font-size: 15px;
+  }
+}
