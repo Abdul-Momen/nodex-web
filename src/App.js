@@ -33,6 +33,7 @@ import PrivacyPolicyPage from "./components/pages/policy_link/PrivacyPolicyPage"
 import PrivacyPolicyNodexPos from "./components/pages/policy_link/PrivacyPolicyNodexPos";
 import TermsConditions from "./components/pages/policy_link/TermsNodexPos.js";
 import RefundNodexPos from "./components/pages/policy_link/RefundNodexPos.js";
+import NodexPosAccountDelete from "./components/pages/policy_link/NodexPosAccountDelete.js";
 
 
 
@@ -87,6 +88,7 @@ function App() {
         <Route path="/privacy-policy-nodex-pos" element={<PrivacyPolicyNodexPos />} />
         <Route path="/terms-condition-nodex-pos" element={<TermsConditions/>} />
         <Route path="/refund-policy-nodex-pos" element={<RefundNodexPos/>} />
+        <Route path="/nodex-pos-account-delete" element={<NodexPosAccountDelete/>} />
 
       </Routes>
     </Router>
